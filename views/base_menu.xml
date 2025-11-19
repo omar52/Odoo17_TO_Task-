@@ -1,0 +1,13 @@
+<!-- It is preferable to make the first two levels in the base file-->
+<odoo>
+    <!--properties-->
+    <menuitem
+            id="to_do_root_menu"
+            name="ToDo"
+    />
+    <menuitem
+            id="tasks_menu"
+            name="Tasks"
+            parent="to_do_root_menu"
+    />
+</odoo>
